@@ -11,8 +11,8 @@ from scipy import signal
 from cvxopt import matrix
 from spectrum.burg import _arburg2
 import matplotlib.pyplot as plt
-from l1tf_lm import l1tf_lm
-from l1tf import l1tf
+from funcs.l1tf_lm import l1tf_lm
+from funcs.l1tf import l1tf
 
 def py_npefa(y,x):
     """

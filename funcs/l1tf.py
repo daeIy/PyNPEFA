@@ -1,5 +1,4 @@
 from cvxopt import matrix, spmatrix, solvers
-import numpy as np
 
 def l1tf(y,lambdaaa):
     """
