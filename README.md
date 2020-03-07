@@ -3,4 +3,4 @@
 
  LAS well log file example is obtained from http://www.kgs.ku.edu/WellLogs/kcc_logs_2019/1051308423.zip
  
- PyNPEFA example can be seen in ./example.ipynb (Jupyter Notebook)
+ PyNPEFA implementation example can be seen in ./example.ipynb (Jupyter Notebook)
