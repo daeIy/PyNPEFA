@@ -1,6 +1,6 @@
 import lasio
 import numpy as np
-from funcs import py_npefa, l1tf, l1tf_lm
+from funcs import py_npefa
 
 # Read data
 y = lasio.read('D:\Erich\Random Project\Well_Data\SEMBAKUNG-5_ARCIND\Log Digital\WCL0001834.LAS').df().GR.dropna()
