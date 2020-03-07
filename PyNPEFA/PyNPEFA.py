@@ -53,7 +53,7 @@ def PyNPEFA(y,x):
 
     # Compute Burg Filter, Prediction Error, and Integrated Prediction Error
     ipfy = {}
-    ipfy['OG'] = z['0']
+    ipfy['OG'] = y
     for j in range(1,5):
         # Burg's AR coeff
         bffy = _arburg2(fy['{0}'.format(j)],32)[0].real
