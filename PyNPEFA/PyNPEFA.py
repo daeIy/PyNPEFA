@@ -66,6 +66,9 @@ def PyNPEFA(y,x):
         # Normalized to -1 <= INPEFA <= 1
         ipfy['{0}'.format(j)] = iipfy / max(abs(iipfy))
 
+    # Plot the INPEFA curves
+    plt.figure(figsize=(18, 16), dpi= 80, facecolor='w', edgecolor='k')
+
     plt.subplot(151)
     plt.plot(ipfy['OG'],-x) # Original signal
 
