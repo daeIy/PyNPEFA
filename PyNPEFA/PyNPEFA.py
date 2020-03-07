@@ -11,10 +11,10 @@ from scipy import signal
 from cvxopt import matrix
 from spectrum.burg import _arburg2
 import matplotlib.pyplot as plt
-from funcs import l1tf_lm
-from funcs import l1tf
+from PyNPEFA.l1tf_lm import l1tf_lm
+from PyNPEFA.l1tf import l1tf
 
-def py_npefa(y,x):
+def PyNPEFA(y,x):
     """
     Generating integrated predicition error filter analysis curve.
 
