@@ -46,10 +46,10 @@ def PyNPEFA(y,x):
 
     # Set trend filter for long, mid, short, and shorter term
     fy = {}
-    fy['1'] = z['0']-(z['1']+z['2']+z['3']+z['4']+z['5']+z['6']+z['7']+z['8']+z['9'])/9.0
-    fy['2'] = z['0']-(z['1']+z['2']+z['3']+z['4']+z['5']+z['6']+z['7'])/7.0
+    fy['1'] = z['0']-(z['1']+z['2']+z['3']+z['4']+z['5']+z['6']+z['7']+z['8'])/8.0
+    fy['2'] = z['0']-(z['1']+z['2']+z['3']+z['4']+z['5']+z['6'])/6.0
     fy['3'] = z['0']-(z['1']+z['2']+z['3']+z['4']+z['5'])/5.0
-    fy['4'] = z['0']-(z['1']+z['2']+z['3'])/3.0
+    fy['4'] = z['0']-(z['1']+z['2']+z['3']+z['4'])/4.0
 
     # Compute Burg Filter, Prediction Error, and Integrated Prediction Error
     ipfy = {}
